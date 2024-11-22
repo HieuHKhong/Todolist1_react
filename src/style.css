@@ -1,0 +1,61 @@
+body{
+    font-family: "Caveat", cursive;
+    font-style: normal;
+}
+
+.Title{
+    margin-top: 15%;
+}
+
+.Title h1{
+    background-color: grey;
+    background-color: whitesmoke;
+    border: 1px solid rgb(85, 82, 82);
+}
+
+
+.task-item {
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.task-item.completed {
+    background-color: #e0f7fa;
+    text-decoration: line-through;
+}
+
+.task-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task-description {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.task-time {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.task-status {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.delete-btn {
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.875rem;
+}
+
+
+@media (max-width: 576px) {
+    .delete-btn {
+        font-size: 0.75rem; 
+        padding: 0.2rem 0.4rem; 
+    }
+}
